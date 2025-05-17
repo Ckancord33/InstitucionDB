@@ -75,7 +75,7 @@ INSERT INTO aulaCurso (num, id) VALUES
 (301, 5),
 (302, 6),
 (401, 7),
-(402, 8),
+(402, 8);
 
 -- Insertar estudianteAsignatura (relación estudiantes y asignaturas)
 -- Asignar a los estudiantes las asignaturas que cursan
