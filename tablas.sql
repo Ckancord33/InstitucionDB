@@ -7,7 +7,7 @@ CREATE TABLE estudiante(
 CREATE TABLE asignatura(
   aCodigo SERIAL PRIMARY KEY,
   nombre VARCHAR(50) NOT NULL,
-  nHoras INT,
+  nHoras INT NOT NULL,
   CHECK(nHoras > 0)
 );
 
