@@ -18,12 +18,12 @@ INSERT INTO asignatura (nombre, nHoras) VALUES
 ('Programación Funcional', 40);
 
 -- Insertar 5 profesores
-INSERT INTO profesor (nombre, correo) VALUES
-('Ursula Iguaran', 'u.iguaran@lab.edu'),
-('Pedro Martinez', 'pedro.martinez@lab.edu'),
-('Clara Fernandez', 'clara.fernandez@lab.edu'),
-('Jorge Soto', 'jorge.soto@lab.edu'),
-('Lucia Torres', 'lucia.torres@lab.edu');
+INSERT INTO profesor (nombre, facultad) VALUES
+('Ursula Iguaran', 'Ciencias Exactas'),
+('Pedro Martinez', 'Ciencias Exactas'),
+('Clara Fernandez', 'Ingenieria'),
+('Jorge Soto', 'Ingenieria'),
+('Lucia Torres', 'Ciencias Exactas');
 
 -- Insertar 9 aulas
 INSERT INTO aula (num, capacidad, etiqueta, edificio, piso) VALUES
