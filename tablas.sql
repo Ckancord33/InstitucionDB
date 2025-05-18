@@ -17,7 +17,7 @@ CREATE TABLE asignatura(
 CREATE TABLE profesor(
   pCodigo SERIAL PRIMARY KEY,
   nombre VARCHAR(50) NOT NULL,
-  correo VARCHAR(100) NOT NULL,
+  facultad VARCHAR(100) NOT NULL,
   CHECK (correo LIKE '%_@_%.__%')
 );
 
